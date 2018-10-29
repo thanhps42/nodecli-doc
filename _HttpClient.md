@@ -49,5 +49,11 @@ Thêm param cho function post.
 ### addHeader(string, string): void
 Thêm header cho lần request tiếp theo.
 
-### get(url: string): [RespnoseObject](###ResponseObject)
-* Thực hiện phương thức GET.
+### get(url: string): [RespnoseObject](#ResponseObject)
+Thực hiện phương thức GET.
+
+### post(url: string): [ResponseObject](#ResponseObject)
+Thực hiện phương thức POST với ```Content-Type: application/x-www-form-urlencoded```.
+
+### raw(method: string, url: string, contentType: string, content: string): [ResponseObject](#ResponseObject)
+Thực hiện cusom request.
