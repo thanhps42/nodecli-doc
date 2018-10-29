@@ -33,5 +33,5 @@ Chạy ```file.js``` bằng ```threads``` luồng.
 
 
 # Notes:
-* Khi trong thread con nếu muốn sử dụng biến global tạo bởi ```setup.js``` thì nên sử dụng phương thức ```_Get/_Set``` để tránh việc xung đột thread dẫn tốn mất mát dữ liệu.
+* Khi trong thread con nếu muốn sử dụng biến global tạo bởi ```setup.js``` thì nên sử dụng phương thức ```_Get/_Set``` để tránh việc xung đột thread dẫn đến mất mát dữ liệu.
 * Nếu có nhiều lệnh muốn đồng bộ thì xài ```_Lock```.
