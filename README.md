@@ -28,7 +28,7 @@ Chạy ```file.js``` bằng ```threads``` luồng.
 
 ## -init: string
 * Trước khi chạy ```file.js``` đa luồng thì nodecli sẽ chạy file ```<setup.js>``` bằng luồng chính trước.
-* Các giá trị global mà ```setup.js``` tạo ra thì ```setup.js``` có thể sử dụng được.
+* Các giá trị global mà ```setup.js``` tạo ra thì ```file.js``` có thể sử dụng được.
 * Nếu không truyền file vào ```-init``` thì nodecli sẽ bỏ qua bươc này mà chạy đa luồng ```file.js```.
 
 
