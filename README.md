@@ -10,10 +10,13 @@ Trả về thread ID.
 Dừng chương trình trong n milliseconds.
 
 ## _Get(name: string): any
-Trả về 1 biến global theo name.
+Trả về 1 biến global theo name (đảm bảo đồng bộ).
 
 ## _Set(name: string, value: any): void
-Set biến global.
+Set biến global (đảm bảo đồng bộ).
+
+## _Lock(fn function(): void): void
+Thực thi fucntion ```fn``` ở chế độ đồng bộ.
 
 # Command line
 
