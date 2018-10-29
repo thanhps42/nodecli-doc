@@ -49,7 +49,7 @@ Thêm param cho function post.
 ### addHeader(string, string): void
 Thêm header cho lần request tiếp theo.
 
-### get(url: string): [RespnoseObject](#ResponseObject)
+### get(url: string): [ResponseObject](#ResponseObject)
 Thực hiện phương thức GET.
 
 ### post(url: string): [ResponseObject](#ResponseObject)
